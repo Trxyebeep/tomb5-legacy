@@ -1,0 +1,689 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TOMB5">
+      <UniqueIdentifier>{8d5f10ca-3c64-4663-bc2a-6abefd4e6a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TOMB5\game">
+      <UniqueIdentifier>{4388c3b4-c950-45f8-b025-39292fc4845c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TOMB5\global">
+      <UniqueIdentifier>{358cbb3f-2caf-4f2d-959b-0b43b0edd963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TOMB5\specific">
+      <UniqueIdentifier>{11ff5a1e-2574-44ff-8a71-c5731d6738b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TOMB5\tomb5">
+      <UniqueIdentifier>{ba2a1dd8-bbca-41ad-a46d-2ac95f8e0b1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TOMB5\game\bat.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\box.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\camera.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\collide.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\control.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\debris.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\delstuff.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\deltapak.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\door.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\draw.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\effect2.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\effects.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\flmtorch.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\gameflow.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\hair.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\health.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\items.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\lara.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\lara1gun.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\lara2gun.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\laraclmb.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\larafire.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\laraflar.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\laramisc.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\larasurf.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\laraswim.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\lot.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\newinv2.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\objects.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\pickup.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\sound.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\sphere.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\spotcam.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\switch.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\tomb4fx.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\traps.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\dxsound.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\gamemain.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\input.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\tomb5\pch.cpp">
+      <Filter>TOMB5\tomb5</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\rope.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\laraskin.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\objlight.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\dog.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\huskie.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\willwisp.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\sniper.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\autogun.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\3dmath.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\andy.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\chef.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\cutseq.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\deathsld.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\drawlara.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\drawroom.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\file.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\footprnt.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\function_stubs.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\function_table.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\hydra.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\imp.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\init.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\joby.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\lighting.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\LoadSave.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\minisub.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\output.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\people.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\polyinsert.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\rat.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\setup.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\skeleton.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\specificfx.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\spider.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\subsuit.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\swampy.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\text.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\texture.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\tower1.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\twogun.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\tower2.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\andrea.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\alexstuff.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\audio.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\d3dmatrix.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\dxshell.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\fmv.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\mafia2.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\lion.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\guardian.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\savegame.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\crow.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\pierre.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\lifts.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\lasers.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\moveblok.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\romangod.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\hitman.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\missile.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\sas.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\gladiatr.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\game\mirror.cpp">
+      <Filter>TOMB5\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\profiler.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\registry.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\winmain.cpp">
+      <Filter>TOMB5\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TOMB5\specific\time.cpp" />
+    <ClCompile Include="TOMB5\specific\cmdline.cpp" />
+    <ClCompile Include="TOMB5\specific\clipping.cpp" />
+    <ClCompile Include="TOMB5\tomb5\libs\zlib\adler32.c" />
+    <ClCompile Include="TOMB5\tomb5\libs\zlib\crc32.c" />
+    <ClCompile Include="TOMB5\tomb5\libs\zlib\inffast.c" />
+    <ClCompile Include="TOMB5\tomb5\libs\zlib\inflate.c" />
+    <ClCompile Include="TOMB5\tomb5\libs\zlib\inftrees.c" />
+    <ClCompile Include="TOMB5\tomb5\libs\zlib\zutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TOMB5\game\bat.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\box.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\camera.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\collide.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\control.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\debris.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\delstuff.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\deltapak.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\door.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\draw.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\effect2.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\effects.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\flmtorch.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\gameflow.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\hair.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\health.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\items.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\lara.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\lara_states.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\lara1gun.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\lara2gun.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\laraclmb.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\larafire.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\laraflar.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\laramisc.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\larasurf.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\laraswim.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\lot.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\newinv2.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\objects.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\pickup.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\sound.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\sphere.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\spotcam.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\switch.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\tomb4fx.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\traps.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\global\math_tbls.h">
+      <Filter>TOMB5\global</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\global\types.h">
+      <Filter>TOMB5\global</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\dxsound.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\gamemain.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\input.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\d3dmatrix.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\tomb5\pch.h">
+      <Filter>TOMB5\tomb5</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\rope.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\laraskin.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\objlight.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\dog.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\huskie.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\willwisp.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\sniper.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\autogun.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\3dmath.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\andy.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\chef.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\cutseq.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\deathsld.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\drawlara.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\drawroom.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\file.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\footprnt.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\function_stubs.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\function_table.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\hydra.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\imp.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\init.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\joby.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\lighting.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\LoadSave.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\minisub.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\output.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\people.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\polyinsert.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\rat.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\setup.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\skeleton.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\specificfx.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\spider.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\subsuit.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\swampy.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\text.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\texture.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\tower1.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\twogun.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\tower2.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\andrea.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\alexstuff.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\audio.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\dxshell.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\fmv.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\mafia2.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\lion.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\guardian.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\savegame.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\crow.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\pierre.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\lifts.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\lasers.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\moveblok.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\romangod.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\hitman.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\missile.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\sas.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\gladiatr.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\game\mirror.h">
+      <Filter>TOMB5\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\profiler.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\registry.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="TOMB5\specific\winmain.h">
+      <Filter>TOMB5\specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TOMB5\specific\time.h" />
+    <ClInclude Include="TOMB5\tomb5\libs\discordRPC\discord_register.h" />
+    <ClInclude Include="TOMB5\tomb5\libs\discordRPC\discord_rpc.h" />
+    <ClInclude Include="TOMB5\specific\cmdline.h" />
+    <ClInclude Include="TOMB5\specific\clipping.h" />
+    <ClInclude Include="TOMB5\tomb5\libs\zlib\zlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tomb5.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="TOMB5\tomb5\libs\discordRPC\discord-rpc.lib" />
+    <Library Include="TOMB5\tomb5\libs\discordRPC\discord-rpcd.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico" />
+  </ItemGroup>
+</Project>
