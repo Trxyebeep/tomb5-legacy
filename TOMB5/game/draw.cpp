@@ -1855,7 +1855,7 @@ void GetRoomBounds()
 {
 	ROOM_INFO* r;
 	short* door;
-	long rn, drn;
+	long rn, drn, x, y, z;
 
 	while (room_list_start != room_list_end)
 	{
@@ -1911,10 +1911,38 @@ void GetRoomBounds()
 			{
 				rn = *door++;
 
-				if (door[0] * long(r->x + door[3] - w2v_matrix[M03]) +
-					door[1] * long(r->y + door[4] - w2v_matrix[M13]) +
-					door[2] * long(r->z + door[5] - w2v_matrix[M23]) < 0)
-					SetRoomBounds(door, rn, r);
+				if (room[rn].flags & ROOM_OUTSIDE)
+					snow_outside = 1;
+
+				if (door[0])
+				{
+					x = r->x + door[3] - w2v_matrix[M03];
+
+					if (x && (x ^ door[0]) < 0)
+						SetRoomBounds(door, rn, r);
+					else
+						continue;
+				}
+
+				if (door[1])
+				{
+					y = r->y + door[4] - w2v_matrix[M13];
+
+					if (y && (y ^ door[1]) < 0)
+						SetRoomBounds(door, rn, r);
+					else
+						continue;
+				}
+
+				if (door[2])
+				{
+					z = r->z + door[5] - w2v_matrix[M23];
+
+					if (z && (z ^ door[2]) < 0)
+						SetRoomBounds(door, rn, r);
+					else
+						continue;
+				}
 
 				door += 15;
 			}
