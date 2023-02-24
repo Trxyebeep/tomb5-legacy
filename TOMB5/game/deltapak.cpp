@@ -2050,7 +2050,7 @@ void special4_end()
 
 void handle_cutseq_triggering(long name)
 {
-	long n, goin, fuck;
+	long n, goin;
 
 	if (!cutseq_num)
 		return;
@@ -2179,12 +2179,11 @@ void handle_cutseq_triggering(long name)
 
 		ScreenFadedOut = 0;
 		numnailed = 0;
-		fuck = cutseq_num;
 
-		if (cutseq_control_routines[fuck].end_func)
-			cutseq_control_routines[fuck].end_func();
+		if (cutseq_control_routines[cutseq_num].end_func)
+			cutseq_control_routines[cutseq_num].end_func();
 
-		if (fuck <= 4)
+		if (cutseq_num <= 4)
 			DelsHandyTeleportLara(GLOBAL_cutme->orgx, GLOBAL_cutme->orgy, GLOBAL_cutme->orgz, cutrot << 14);
 
 		cutseq_trig = 0;
@@ -2192,7 +2191,8 @@ void handle_cutseq_triggering(long name)
 
 		if (!bDoCredits)
 		{
-			if (dels_cutseq_player || fuck == 26 || fuck == 22 || fuck == 5 || fuck == 16 || fuck == 33 || fuck == 44 || fuck == 12)
+			if (dels_cutseq_player ||
+				cutseq_num == 26 || cutseq_num == 22 || cutseq_num == 5 || cutseq_num == 16 || cutseq_num == 33 || cutseq_num == 44 || cutseq_num == 12)
 			{
 				if (dels_cutseq_player)
 				{
@@ -2232,22 +2232,22 @@ void handle_cutseq_triggering(long name)
 		}
 		else
 		{
-			switch (fuck)
+			switch (cutseq_num)
 			{
 			case 28:
-				fuck = 29;
+				cutseq_num = 29;
 				break;
 
 			case 29:
-				fuck = 30;
+				cutseq_num = 30;
 				break;
 
 			case 30:
-				fuck = 28;
+				cutseq_num = 28;
 				break;
 			}
 
-			Load_and_Init_Cutseq(fuck);
+			Load_and_Init_Cutseq(cutseq_num);
 			cutseq_trig = 2;
 		}
 	}
