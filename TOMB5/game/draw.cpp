@@ -1907,7 +1907,7 @@ void GetRoomBounds()
 
 		if (door)
 		{
-			for (drn = *door++; drn > 0; drn--)
+			for (drn = *door++; drn > 0; drn--, door += 15)
 			{
 				rn = *door++;
 
@@ -1943,8 +1943,6 @@ void GetRoomBounds()
 					else
 						continue;
 				}
-
-				door += 15;
 			}
 		}
 
