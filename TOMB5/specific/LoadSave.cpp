@@ -539,6 +539,8 @@ void DoOptions()
 							controls_selection = 0;
 							layout[1][num2] = i;
 						}
+
+						break;
 					}
 				}
 			}
