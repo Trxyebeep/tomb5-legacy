@@ -206,7 +206,7 @@ void lara_col_climbing(ITEM_INFO* item, COLL_INFO* coll)
 
 				if (abs(ledge_r - ledge_l) <= 120)
 				{
-					if (result_r == -1 || result_l == -1)
+					if (result_r == -1 && result_l == -1)
 					{
 						item->goal_anim_state = AS_NULL;
 						item->pos.y_pos += (ledge_r + ledge_l) / 2 - 256;
