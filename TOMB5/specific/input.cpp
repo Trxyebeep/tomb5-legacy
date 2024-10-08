@@ -102,7 +102,7 @@ long Key(long number)
 	short key = layout[1][number];
 
 	if (number >= 256)
-		return joy_fire & (1 << number);
+		return joy_fire & (1 << (number - 256));
 
 	if (keymap[key])
 		return 1;
