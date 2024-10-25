@@ -158,6 +158,7 @@ short GetTrackWord(long off, char* packed, long packmethod);
 short DecodeTrack(char* packed, RTDECODE* decode);
 void DecodeAnim(PACKNODE* node, long num_nodes, long frame, long flags);
 void do_new_cutscene_camera();
+void* cutseq_malloc(long size);
 void updateAnimFrame(PACKNODE* node, long flags, short* frame);
 void DrawCutSeqActors();
 void CalcActorLighting(ITEM_INFO* item, OBJECT_INFO* obj, short* rot);

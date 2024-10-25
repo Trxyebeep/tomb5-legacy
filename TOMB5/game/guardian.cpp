@@ -40,7 +40,7 @@ void InitialiseGuardian(short item_number)
 	short angle;
 
 	item = &items[item_number];
-	item->data = game_malloc(20, 0);
+	item->data = game_malloc(20);
 	aptr = (short*) item->data;
 
 	for (int i = 0; i < level_items; i++)

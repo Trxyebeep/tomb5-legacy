@@ -3089,6 +3089,11 @@ void do_new_cutscene_camera()
 		GLOBAL_cutseq_frame = GLOBAL_numcutseq_frames;
 }
 
+void* cutseq_malloc(long size)
+{
+	return game_malloc(size, 0);
+}
+
 void updateAnimFrame(PACKNODE* node, long flags, short* frame)
 {
 	short* nex;
@@ -3496,7 +3501,7 @@ void init_cutseq_actors(char* data, long resident)
 			resident_addr += sizeof(PACKNODE) * (pda_nodes + 1);
 		}
 		else
-			actor_pnodes[i] = (PACKNODE*)game_malloc(sizeof(PACKNODE) * (pda_nodes + 1), 0);
+			actor_pnodes[i] = (PACKNODE*)cutseq_malloc(sizeof(PACKNODE) * (pda_nodes + 1));
 
 		if (!i)
 		{
@@ -3535,7 +3540,7 @@ void init_cutseq_actors(char* data, long resident)
 		resident_addr += sizeof(PACKNODE) * (pda_nodes + 1);
 	}
 	else
-		camera_pnodes = (PACKNODE*)game_malloc(sizeof(PACKNODE) * (pda_nodes + 1), 0);
+		camera_pnodes = (PACKNODE*)cutseq_malloc(sizeof(PACKNODE) * (pda_nodes + 1));
 
 	InitPackNodes(nlheader, camera_pnodes, packed, pda_nodes + 1);
 	GLOBAL_playing_cutseq = 1;
